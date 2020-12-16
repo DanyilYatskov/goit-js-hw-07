@@ -16,5 +16,4 @@ const addIngridient = function (ingridient) {
 const ingridientsList = ingredients.map(ingredient =>
   addIngridient(ingredient),
 );
-//ingridientsListRef.textContent = 'Задача 2: Список ингридиентов';
 ingridientsListRef.append(...ingridientsList);

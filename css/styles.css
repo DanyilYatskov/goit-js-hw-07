@@ -1,0 +1,17 @@
+#gallery {
+  display: flex;
+  justify-content: center;
+}
+.task-title {
+  text-align: center;
+  margin: 10px;
+}
+.gallery-img {
+  width: 100%;
+  height: 100%;
+}
+.gallery-item {
+  width: 30%;
+  list-style: none;
+  margin: 15px;
+}
