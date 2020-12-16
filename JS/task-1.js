@@ -6,7 +6,7 @@ const categoryItemsMapped = categoriesListRef.map(category => {
   const categoryItems = category.querySelectorAll('li');
   return { title: categoryTitle.textContent, itemsCount: categoryItems.length };
 });
-//categoryItemsMapped.forEach(category => {
+categoryItemsMapped.forEach(category => {
   console.log(
     `Категория: ${category.title} \r\nКоличество элементов: ${category.itemsCount}`,
   );
