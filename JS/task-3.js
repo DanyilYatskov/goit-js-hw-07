@@ -26,5 +26,5 @@ const addGalleryItem = function (item) {
   galleryItemRef.appendChild(galleryPhotoRef);
   return galleryItemRef;
 };
-const imagesListToAdd = images.map(image => addGalleryItem(image));
+//const imagesListToAdd = images.map(image => addGalleryItem(image));
 galleryRef.append(...imagesListToAdd);

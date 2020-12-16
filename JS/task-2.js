@@ -16,4 +16,4 @@ const addIngridient = function (ingridient) {
 const ingridientsList = ingredients.map(ingredient =>
   addIngridient(ingredient),
 );
-ingridientsListRef.append(...ingridientsList);
+//ingridientsListRef.append(...ingridientsList);
