@@ -28,3 +28,9 @@ const addGalleryItem = function (item) {
 };
 const imagesListToAdd = images.map(image => addGalleryItem(image));
 galleryRef.append(...imagesListToAdd);
+// const wtf = images
+//   .map(image => {
+//     return `<li><img src="${image.url}" alt="${image.alt}"></li>`;
+//   })
+//   .join('');
+// galleryRef.append(...wtf); ??????????????????????????

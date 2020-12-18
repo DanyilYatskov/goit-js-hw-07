@@ -11,3 +11,8 @@ categoryItemsMapped.forEach(category => {
     `Категория: ${category.title} \r\nКоличество элементов: ${category.itemsCount}`,
   );
 });
+// categoriesListRef.map(category =>
+//   console.log(
+//     `Категория: ${category.firstElementChild.textContent}\r\nКоличество элементов: ${category.lastElementChild.children.length}`,
+//   ),
+// );///hmm ok
