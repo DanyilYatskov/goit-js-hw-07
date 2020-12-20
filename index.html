@@ -63,13 +63,20 @@
       data-length="6"
       placeholder="Введи 6 символов"
     />
-    <div class="js-task-7" >
+    <div class="js-task-7">
       <h2 class="task-title">Task 7 : Change font-size for input</h2>
       <span class="font-size-number"></span><br />
       <input id="font-size-control" type="range" min="8" max="55" value="12" />
       <br />
-      <span id="text">London is the capital of Great  Britain</span>
+      <span id="text">London is the capital of Great Britain</span>
     </div>
+    <div id="controls">
+      <h2 class="task-title">Task 8</h2>
+      <input id="number" type="number" min="0" max="100" step="1" />
+      <button type="button" data-action="render">Создать</button>
+      <button type="button" data-action="destroy">Очистить</button>
+    </div>
+    <div id="boxes"></div>
     <script src="./js/task-1.js" type="module"></script>
     <script src="./js/task-2.js" type="module"></script>
     <script src="./js/task-3.js" type="module"></script>
@@ -77,6 +84,6 @@
     <script src="./js/task-5.js" type="module"></script>
     <script src="./js/task-6.js" type="module"></script>
     <script src="./js/task-7.js" type="module"></script>
-  </body>
+    <script src="./js/task-8.js" type="module"></script>
   </body>
 </html>

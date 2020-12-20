@@ -1,5 +1,5 @@
 body {
-  padding-bottom: 40px;
+  padding: 30px;
 }
 #gallery {
   display: flex;
@@ -32,4 +32,9 @@ body {
 
 #validation-input.invalid {
   border-color: #f44336;
+}
+#boxes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
